@@ -36,7 +36,7 @@ In this folder, feel free to download the example provided (reactingCylinder.cpp
 make
 mpirun -np X reactingCylinder
 ~~~
-where X is your chosen number of processors. 
+where X is your chosen number of processors. The results of the simulation is stored in the /tmp folder. For visualization, I recommend using ParaView to open the reactingCylinder.pvd file in the /tmp folder. 
 
 
 
