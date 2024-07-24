@@ -31,7 +31,7 @@ cd myExamples
 mkdir reactingCylinder
 ~~~
 
-In this folder, feel free to download the example provided (reactingCylinder) in this repository. To run this program, include the Makefile in the same folder and run 
+In this folder, feel free to download the example provided (reactingCylinder.cpp) in this repository. To run this program, include the Makefile in the same folder and run 
 ~~~
 make
 mpirun -np X reactingCylinder
