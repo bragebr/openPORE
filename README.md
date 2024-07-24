@@ -21,7 +21,22 @@ PARALLEL_MODE := MPI
 USE_EMBEDDED_DEPENDENCIES := ON
 ~~~
 
-for efficient use of MPI when running examples. 
+for efficient use of MPI when running examples.
+
+Then, in the openLB directory, do
+
+~~~
+mkdir myExamples
+~~~
+
+In this folder, feel free to download the example provided (reactingCylinder) in this repository. To run this program, include the Makefile in the same folder and run 
+~~~
+make
+mpirun -np X reactingCylinder
+~~~
+where X is your chosen number of processors. 
+
+
 
 
 
